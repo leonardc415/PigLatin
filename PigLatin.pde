@@ -31,7 +31,7 @@ public String pigLatin(String sWord)
 	}
   else if(findFirstVowel(sWord) == !-1)
   {
-    return sWrod + "way";loeonardc
+    return sWord + "way";
   }
   else if(sWord.substring(0,2) == 'qu')
   {
